@@ -1,3 +1,4 @@
+// Singleton Class
 class Singleton {
     static Singleton instance = new Singleton(); 
     
@@ -10,6 +11,7 @@ class Singleton {
     }
 }
 
+// Main Class
 public class exercise1 {
     public static void main(String[] args) {
         Singleton.instance.helloWorld();
