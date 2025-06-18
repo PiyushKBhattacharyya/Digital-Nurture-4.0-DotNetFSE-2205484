@@ -67,28 +67,35 @@ public class exercise3 {
         Scanner scanner = new Scanner(System.in);
         addSampleProducts();
 
-        System.out.println("E-Commerce Product Search");
-        System.out.println("1. Search by Product Name");
-        System.out.println("2. Search by Category");
-        System.out.print("Enter your choice: ");
-        int choice = scanner.nextInt();
-        scanner.nextLine();
+        while (true) {
+            System.out.println("E-Commerce Product Search");
+            System.out.println("1. Search by Product Name");
+            System.out.println("2. Search by Category");
+            System.out.println("0. Exit");
+            System.out.print("Enter your choice: ");
+            int choice = scanner.nextInt();
+            scanner.nextLine();
 
-        switch (choice) {
-            case 1:
-                System.out.print("Enter Product Name (P1 to P5): ");
-                String name = scanner.nextLine();
-                searchByName(name);
-                break;
-            case 2:
-            System.out.print("Enter Category (C1 to C3): ");
-                String category = scanner.nextLine();
-                searchByCategory(category);
-                break;
-            default:
-                System.out.println("Invalid choice!");
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter Product Name (P1 to P5): ");
+                    String name = scanner.nextLine();
+                    searchByName(name);
+                    break;
+                case 2:
+                    System.out.print("Enter Category (C1 to C3): ");
+                    String category = scanner.nextLine();
+                    searchByCategory(category);
+                    break;
+                case 0:
+                    System.out.println("Exiting the program. Thank you!");
+                    scanner.close();
+                    return;
+                default:
+                    System.out.println("Invalid choice!");
+            }
+
+            scanner.close();
         }
-
-        scanner.close();
     }
 }
