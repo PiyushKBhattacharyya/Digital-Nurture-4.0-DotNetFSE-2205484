@@ -9,7 +9,7 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | Ranking and Windows Functions              |
 | Exercise 2   | Create a Stored Procedure                  |
-| Exercise 3   | Return Data from a Stored Procedure        |
+| Exercise 3   | Hands On NUnit                             |
 | Exercise 4   | Write Testable code with Moq               | 
 ---
 
