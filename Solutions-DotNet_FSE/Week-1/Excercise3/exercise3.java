@@ -21,12 +21,21 @@ public class exercise3 {
     // List to store all Products
     static List<Product> products = new ArrayList<>();
 
+    // Map to Link Categories to Products
+    static Map<String, HashSet<Product>> catMap = new HashMap<>();
+
     public static void addSampleProducts() {
-        products.add(new Product("P1", "C1", 79999));
-        products.add(new Product("P2", "C1", 59999));
-        products.add(new Product("P3", "C2", 4999));
-        products.add(new Product("P4", "C2", 2999));
-        products.add(new Product("P5", "C3", 39999));
+        addProduct(new Product("P1", "C1", 79999));
+        addProduct(new Product("P2", "C1", 59999));
+        addProduct(new Product("P3", "C2", 4999));
+        addProduct(new Product("P4", "C2", 2999));
+        addProduct(new Product("P5", "C3", 39999));
+    }
+
+    // Adds Products to list and catMap
+    public static void addProduct(Product p) {
+        products.add(p);
+        catMap.computeIfAbsent(p.category, k -> new HashSet<>()).add(p);
     }
 
     // Search Product by Name (Linear Search)
@@ -46,22 +55,20 @@ public class exercise3 {
         }
     }
 
-    // Search by Category
+    // Search by Category (using HashMap)
     public static void searchByCategory(String category) {
         System.out.println("Search Products for Category: " + category);
-        boolean foundCat = false;
-        
-        for (Product product : products) {
-            if (product.category.contains(category.toLowerCase())) {
-                product.display();
-                foundCat = true;
-            }
-        }
+        HashSet<Product> catProducts = catMap.get(category.toLowerCase());
 
-        if (!foundCat) {
-            System.out.println("Product not found");
+        if (catProducts != null && !catProducts.isEmpty()) {
+            for (Product product : catProducts) {
+                product.display();
+            }
+        } else {
+            System.out.println("No products found in this category.");
         }
     }
+    
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -73,8 +80,17 @@ public class exercise3 {
             System.out.println("2. Search by Category");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            int choice;
+
+            try {
+                choice = scanner.nextInt();
+                scanner.nextLine();
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+                continue;
+            }
+
 
             switch (choice) {
                 case 1:
@@ -94,8 +110,6 @@ public class exercise3 {
                 default:
                     System.out.println("Invalid choice!");
             }
-
-            scanner.close();
         }
     }
 }
