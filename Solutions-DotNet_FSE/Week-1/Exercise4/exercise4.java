@@ -3,55 +3,60 @@ import java.util.*;
 public class exercise4 {
 
     // Calculate AVG Monthly Growth Rate
-    public static double calculateAvgGrowthRate(List<Double> monthlyRevenue) {
+    public static double calculateAvgGrowthRate(double[] monthlyRevenue, int size) {
         double totalGrowth = 0.0;
        
-        for (int i = 1; i < monthlyRevenue.size(); i++) {
-            double growth = (monthlyRevenue.get(i) - monthlyRevenue.get(i - 1)) / monthlyRevenue.get(i - 1);
+        for (int i = 1; i < size; i++) {
+            double growth = (monthlyRevenue[i] - monthlyRevenue[i - 1]) / monthlyRevenue[i - 1];
             totalGrowth += growth;
         }
 
-        return totalGrowth / (monthlyRevenue.size() - 1);
+        return totalGrowth / (size- 1);
     }
 
-    // Forecast Revenue
-    public static List<Double> forecast(List<Double> hist, int n) {
-        List<Double> forecast = new ArrayList<>(hist);
-        double avg = calculateAvgGrowthRate(hist);
-        double last = hist.get(hist.size() - 1);
+    // Forecast Revenue 
+    public static double[] forecast(double[] hist, int histSize, int n) {
+        double[] forecast = new double[histSize + n];
 
-        for (int i = 0; i < n; i++) {
-            double next = last * (1 + avg);
-            forecast.add(next);
-            last = next;
+        // Copy historical data
+        for (int i = 0; i < histSize; i++) {
+            forecast[i] = hist[i];
+        }
+
+        double avg = calculateAvgGrowthRate(hist, histSize);
+        double last = hist[histSize - 1];
+
+        for (int i = histSize; i < histSize + n; i++) {
+            last *= (1 + avg);
+            forecast[i] = last;
         }
         return forecast;
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Double> past = new ArrayList<>();
 
         System.out.println("Enter number of past months data: ");
         int n = scanner.nextInt();
+        double[] past = new double[n];
 
-        for (int i = 1; i <= n; i++) {
-            System.out.printf("Enter revenue for month %d: ", i);
-            past.add(scanner.nextDouble());
+        for (int i = 0; i < n; i++) {
+            System.out.printf("Enter revenue for month %d: ", i + 1);
+            past[i] = scanner.nextDouble();
         }
         
         System.out.println("Enter number of months to forecast: ");
         int m = scanner.nextInt();
 
-        List<Double> forecast = forecast(past, m);
+        double[] result  = forecast(past,n, m);
         System.out.println("\nHistorical Revenue Data");
-        for (int i = 0; i < past.size(); i++) {
-            System.out.printf("\tMonth %d: Rs.%.2f%n", i + 1, past.get(i));
+        for (int i = 0; i < n; i++) {
+            System.out.printf("\tMonth %d: Rs.%.2f%n", i + 1, result [i]);
         }
 
         System.out.println("\nForecasted Revenue");
-        for (int i = past.size(); i < forecast.size(); i++) {
-            System.out.printf("\tMonth %d: Rs.%.2f%n", i + 1, forecast.get(i));
+        for (int i = n; i < result .length; i++) {
+            System.out.printf("\tMonth %d: Rs.%.2f%n", i + 1, result [i]);
         }
 
         scanner.close();
