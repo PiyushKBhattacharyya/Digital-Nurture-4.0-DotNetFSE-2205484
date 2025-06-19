@@ -17,18 +17,16 @@ The solutions along with the output screenshots are included for reference.
 
 Each assignment is organized in its own subfolder:
 
-**Exercise1:**  _# Singleton Pattern_  
-- `exercise1.java`  
-- `output.png`
-
-**Exercise2:**  _# Factory Method Pattern_  
-- `exercise2.java`  
-- `output.png`
-
-**Exercise3:**  _# E-commerce Search_  
-- `exercise3.java`  
-- `output.png`
-
-**Exercise4:**  _# Financial Forecasting_  
-- `exercise4.java`  
-- `output.png`
+# Project tree
+ * [Exercise1 – Singleton Pattern](./Exercise1) <!-- Exercise 1: Singleton Pattern Implementation -->
+   * [exercise1.java](./Exercise1/exercise1.java)
+   * [output.png](./Exercise1/output.png)
+ * [Exercise2 – Factory Method Pattern](./Exercise2) <!-- Exercise 2: Factory Method Pattern -->
+   * [exercise2.java](./Exercise2/exercise2.java)
+   * [output.png](./Exercise2/output.png)
+ * [Exercise3 – E‑commerce Search](./Exercise3) <!-- Exercise 3: E-commerce Platform Search Function -->
+   * [exercise3.java](./Exercise3/exercise3.java)
+   * [output.png](./Exercise3/output.png)
+ * [Exercise4 – Financial Forecasting](./Exercise4) <!-- Exercise 4: Financial Forecasting Logic -->
+   * [exercise4.java](./Exercise4/exercise4.java)
+   * [output.png](./Exercise4/output.png)
