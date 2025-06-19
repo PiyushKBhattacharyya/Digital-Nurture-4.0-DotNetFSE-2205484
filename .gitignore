@@ -1,2 +1,4 @@
-*DotNet FSE
+DotNet FSE
 *.class
+*bin
+*obj
