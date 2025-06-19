@@ -17,11 +17,11 @@ The solutions along with the output screenshots are included for reference.
 
 Each assignment is organized in its own subfolder:
 # Project tree
- * [Mandatory-Exercises](./Mandatory-Exercises)
+ * [Mandatory-Exercises](./Mandatory-Exercises) <!-- Ranking and Windows Functions -->
    * [Exercise1](./Mandatory-Exercises/Exercise1)
      * [exercise1.sql](./Mandatory-Exercises/Exercise1/exercise1.sql)
      * [output.png](./Mandatory-Exercises/Exercise1/output.png)
- * [Additional-Exercises](./Additional-Exercises)
+ * [Additional-Exercises](./Additional-Exercises) <!-- Non-Clustered, Clustered and Composite Index -->
    * [Exercise1](./Additional-Exercises/Exercise1)
      * [exercise1.sql](./Additional-Exercises/Exercise1/exercise1.sql)
      * [output.png](./Additional-Exercises/Exercise1/output.png)
