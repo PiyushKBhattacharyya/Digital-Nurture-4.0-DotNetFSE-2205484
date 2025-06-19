@@ -19,7 +19,7 @@ Each assignment is organized in its own subfolder:
 
 # Project tree
  * [Exercise1 – Singleton Pattern](./Exercise1) <!-- Exercise 1: Singleton Pattern Implementation -->
-   * [program.cs](./Exercise1/exercise1.cs)
+   * [exercise1.cs](./Exercise1/exercise1.cs)
    * [exercise1.csproj](./Exercise1/exercise1.csproj)
    * [output.png](./Exercise1/output.png)
    * [Readme.md](./Exercise1/README.md)
