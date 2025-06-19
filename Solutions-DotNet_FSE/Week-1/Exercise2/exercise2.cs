@@ -1,26 +1,8 @@
-# Factory Pattern
-
-## Overview
-
-This assignment demonstrates the **Factory Design Pattern** in C# using a simple console application. The Factory pattern provides a way to **create objects without specifying the exact class** of object that will be created.
-
-This is particularly useful in scenarios such as:
-- Creating objects based on input or configuration at runtime.
-- Encapsulating object creation logic in one place.
-- Promoting loose coupling and scalability in code by relying on common interfaces.
----
-### Animal Interface
-
-```csharp
-interface Animal
+﻿interface Animal
 {
     void MakeSound();
 }
-```
 
-### Concrete Classes
-
-```csharp
 class Dog : Animal
 {
     public void MakeSound()
@@ -36,11 +18,7 @@ class Cat : Animal
         Console.WriteLine("Meow!");
     }
 }
-```
 
-### Factory Class
-
-```csharp
 class AnimalFactory
 {
     public static Animal CreateAnimal(string animalType)
@@ -62,11 +40,8 @@ class AnimalFactory
         }
     }
 }
-```
 
-### Main Class
-```csharp
-class Program
+class exercise2
 {
     static void Main(string[] args)
     {
@@ -86,31 +61,3 @@ class Program
         a3?.MakeSound(); // null check using ? operator
     }
 }
-```
----
-## How to Run
-### Prerequisites
-- .NET SDK installed
-- VS Code or any C# IDE
-- Any terminal or command prompt
-
-### Compilation
-```bash
-dotnet build
-```
-### Execution
-```bash
-dotnet run
-```
----
-## Output
-```bash
-Requesting Dog:
-Dog Object created.
-Woof!
-Requesting Cat:
-Cat Object created.
-Meow!
-Requesting Horse:
-Invalid animal type.
-```

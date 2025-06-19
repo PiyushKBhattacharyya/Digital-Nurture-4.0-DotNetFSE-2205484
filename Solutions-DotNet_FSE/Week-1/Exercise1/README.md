@@ -13,7 +13,6 @@ This is particularly useful in scenarios such as:
 - Ensuring a single access point for a service or component
 
 ---
-
 ### Singleton Class
 
 ```csharp
@@ -46,15 +45,23 @@ class Program
     }
 }
 ```
-
+---
 ## How to Run
 ### Prerequisites
 - .NET SDK installed
 - VS Code or any C# IDE
 - Any terminal or command prompt
 
----
 
+### Compilation
+```bash
+dotnet build
+```
+### Execution
+```bash
+dotnet run
+```
+---
 ## Output
 ```bash
 Requesting Dog:

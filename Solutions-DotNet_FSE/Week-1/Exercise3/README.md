@@ -2,22 +2,19 @@
 
 ## Overview
 
-This assignment demonstrates the use of **Data Structures and Search Algorithms** in Java by simulating a simple **E-Commerce product search** functionality. 
+This assignment demonstrates the use of **Data Structures and Search Algorithms** in C# by simulating a simple **E-Commerce product search** functionality. 
 
 It allows users to:
 - Search products by **name** using **linear search**.
-- Search products by **category** using a **HashMap** for efficient lookup.
+- Search products by **category** using a **Dictionary** for efficient lookup.
 ---
-
 ### Product Data Structure
 ### `Product` Class
 Each product has:
 - `name`: the product name (case-insensitive)
 - `category`: the product category (case-insensitive)
 - `price`: the product price (double)
-
 ---
-
 ## Key Functionalities
 
 ### `addProduct(Product p)`
@@ -29,12 +26,10 @@ Each product has:
 - Displays products whose names contain the search keyword.
 
 ### `searchByCategory(String category)`
-- Fetches product set using a **HashMap**.
+- Fetches product set using a **dictionary**.
 - Prints all products under the selected category.
-
 ---
-
-## 💾 Sample Products
+## Sample Products
 
 | Product | Category | Price   |
 |---------|----------|---------|
@@ -43,27 +38,22 @@ Each product has:
 | P3      | C2       | 4999    |
 | P4      | C2       | 2999    |
 | P5      | C3       | 39999   |
-
 ---
-
 ## How to Run
 ### Prerequisites
-- Java JDK 8 or later must be installed
+- .NET SDK installed
+- VS Code or any C# IDE
 - Any terminal or command prompt
-
 ---
-
 ### Compilation
-
 ```bash
-javac exercise3.java
+dotnet build
 ```
-
 ### Execution
 ```bash
-java exercise3
+dotnet run
 ```
-
+---
 ## Output
 ```bash
 E-Commerce Product Search

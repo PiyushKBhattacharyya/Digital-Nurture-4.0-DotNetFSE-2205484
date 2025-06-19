@@ -1,11 +1,9 @@
-﻿using System;
-
-class Singleton
+﻿class Singleton
 {
-    // Static instance - created eagerly
+    // Static instance
     public static Singleton instance = new Singleton();
 
-    // Private constructor to prevent external instantiation
+    // Private constructor
     private Singleton()
     {
         Console.WriteLine("Singleton Created.");
@@ -17,7 +15,7 @@ class Singleton
     }
 }
 
-class Program
+class exercise1
 {
     static void Main(string[] args)
     {

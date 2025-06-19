@@ -10,7 +10,6 @@ Key highlights:
 - Forecasts the revenue for the next `m` months using this growth rate.
 - Uses **primitive arrays** instead of collection-based `List<Double>` for space efficiency.
 ---
-
 ### Logic Used
 ### `calculateAvgGrowthRate(double[] monthlyRevenue, int size)`
 - Computes the average growth rate using the formula:
@@ -23,43 +22,22 @@ Key highlights:
 - Allocates a new array of size `histSize + n`.
 - Copies historical values.
 - Uses the growth rate to forecast upcoming `n` months.
-
 ---
-
-## Key Functionalities
-
-### `addProduct(Product p)`
-- Adds a product to the global list.
-- Inserts it into the `HashMap` by category for fast access.
-
-### `searchByName(String name)`
-- Performs a **linear search** on the product list.
-- Displays products whose names contain the search keyword.
-
-### `searchByCategory(String category)`
-- Fetches product set using a **HashMap**.
-- Prints all products under the selected category.
-
----
-
 ## How to Run
 ### Prerequisites
-- Java JDK 8 or later must be installed
+- .NET SDK installed
+- VS Code or any C# IDE
 - Any terminal or command prompt
 
----
-
 ### Compilation
-
 ```bash
-javac exercise4.java
+dotnet build
 ```
-
 ### Execution
 ```bash
-java exercise4
+dotnet run
 ```
-
+---
 ## Input
 ```bash
 Enter number of past months data: 
