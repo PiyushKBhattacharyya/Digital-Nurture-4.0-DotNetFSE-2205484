@@ -8,7 +8,7 @@ This project demonstrates how to **optimize query performance** by applying:
 - Composite Index
 
 using an **E-Commerce Database Schema**.
-
+---
 ## Database Schema Overview
 
 ```sql
@@ -41,7 +41,7 @@ CREATE TABLE OrderDetails (
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 ```
-
+---
 ## Sample Data
 ```sql
 INSERT INTO Customers (CustomerID, Name, Region) VALUES
@@ -68,7 +68,7 @@ INSERT INTO OrderDetails (OrderDetailID, OrderID, ProductID, Quantity) VALUES
 (3, 3, 3, 1),
 (4, 4, 4, 3);
 ```
-
+---
 ## Indexing Exercise
 ### Exercise 1: Non-Clustered Index
 *Goal:* Improve search performance on ProductName column.
@@ -115,7 +115,7 @@ CREATE NONCLUSTERED INDEX IDX_CustomerID_OrderDate ON Orders(CustomerID, OrderDa
 -- Step 3: Query to fetch orders after index creation
 SELECT * FROM Orders WHERE CustomerID = 1 AND OrderDate = '2023-01-15';
 ```
-
+---
 ## Summary of Indexes
 
 | Type             | Table   | Column(s)               | Index Name               |

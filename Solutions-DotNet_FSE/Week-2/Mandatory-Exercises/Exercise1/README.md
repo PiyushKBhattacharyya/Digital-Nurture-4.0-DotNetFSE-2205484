@@ -120,7 +120,7 @@ WHERE RowNum <= 3;
 ```
 - **Handles ties like RANK() but does not skip ranks.**
 - **If two products are tied at rank 1, the next is rank 2.**
-
+---
 ## Summary of Differences Between Ranking Functions
 
 | Function       | Ties Handling          | Rank Skipping | Use Case                                 |
