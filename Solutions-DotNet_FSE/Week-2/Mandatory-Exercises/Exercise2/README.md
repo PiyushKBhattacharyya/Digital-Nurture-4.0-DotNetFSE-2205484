@@ -1,4 +1,4 @@
-# Employee Basic Info View
+# Stored Procedure Creation
 
 ## Objective
 This assignment demonstrates the creation and execution of a SQL stored procedure to insert employee records into the Employees table based on parameters provided at runtime.
