@@ -1,7 +1,7 @@
 # Creating Non-Clustered, Clustered, and Composite Indexes
 
 ## Objective
-This project demonstrates how to **optimize query performance** by applying:
+This additional assignment demonstrates how to **optimize query performance** by applying:
 
 - Non-Clustered Index
 - Clustered Index
