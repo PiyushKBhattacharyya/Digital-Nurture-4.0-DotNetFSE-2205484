@@ -31,9 +31,9 @@ Each assignment is organized in its own subfolder:
   * [Exercise1 – Ranking and Window Functions](./Mandatory-Exercises/Exercise1)
     * `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
   * [Exercise2 – Creating Stored Procedure](./Mandatory-Exercises/Exercise2)  
-    *  `exercise2.sql`, `index.sql`, `output.png`, `README.md`
+    * `exercise2.sql`, `index.sql`, `output.png`, `README.md`
   * [Exercise3 – Return Data From a Stored Procedure](./Mandatory-Exercises/Exercise3)  
-    *  `exercise3.sql`, `index.sql`, `output.png`, `README.md`
+    * `exercise3.sql`, `index.sql`, `output.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
   * [Exercise1 – Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
