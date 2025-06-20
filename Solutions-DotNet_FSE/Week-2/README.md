@@ -11,8 +11,9 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | Ranking and Windows Functions              |
 | Exercise 2   | Creating a Stored Procedure                  |
-| Exercise 3   | Hands On NUnit                             |
-| Exercise 4   | Write Testable code with Moq               | 
+| Exercise 3   | Return Data from a Stored Procedure                             |
+| Exercise 4   | Hands On NUnit               | 
+| Exercise 5   | Write Testable code with Moq               |
 
 
 ### Additional Assignments
@@ -31,6 +32,8 @@ Each assignment is organized in its own subfolder:
     * `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
   * [Exercise2 – Creating Stored Procedure](./Mandatory-Exercises/Exercise2)  
     *  `exercise2.sql`, `index.sql`, `output.png`, `README.md`
+  * [Exercise3 – Return Data From a Stored Procedure](./Mandatory-Exercises/Exercise3)  
+    *  `exercise3.sql`, `index.sql`, `output.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
   * [Exercise1 – Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
