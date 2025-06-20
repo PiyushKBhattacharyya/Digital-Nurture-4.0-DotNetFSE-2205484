@@ -26,14 +26,14 @@ The solutions along with the output screenshots are included for reference.
 
 Each assignment is organized in its own subfolder:
 
-### - [Mandatory-Exercises](./Mandatory-Exercises)
-- [Exercise1 – Ranking and Window Functions](./Mandatory-Exercises/Exercise1)  
-  - `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
-- [Exercise2 – Creating Stored Procedure](./Mandatory-Exercises/Exercise2)  
-  -  `exercise1.sql`, `index.sql`, `output.png`, `README.md`
+* [Mandatory-Exercises](./Mandatory-Exercises)
+  * [Exercise1 – Ranking and Window Functions](./Mandatory-Exercises/Exercise1)
+    * `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
+  * [Exercise2 – Creating Stored Procedure](./Mandatory-Exercises/Exercise2)  
+    *  `exercise2.sql`, `index.sql`, `output.png`, `README.md`
 
-### - [Additional-Exercises](./Additional-Exercises)
-- [Exercise1 – Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
-  - `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
-- [Exercise2 – Scalar Function Output](./Additional-Exercises/Exercise2)  
-  - `exercise1.sql`, `index.sql`, `output.png`, `README.md`
+* [Additional-Exercises](./Additional-Exercises)
+  * [Exercise1 – Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
+    * `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
+  * [Exercise2 – Scalar Function Output](./Additional-Exercises/Exercise2)  
+    * `exercise2.sql`, `index.sql`, `output.png`, `README.md`
