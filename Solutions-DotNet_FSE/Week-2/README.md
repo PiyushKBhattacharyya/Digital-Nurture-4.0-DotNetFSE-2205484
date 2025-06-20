@@ -36,7 +36,9 @@ Each assignment is organized in its own subfolder:
     * `exercise3.sql`, `index.sql`, `output.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
-  * [Exercise1 – Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
+  * [Exercise1 – Creating a Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
     * `exercise1.sql`, `index.sql`, `output.png`, `README.md`  
-  * [Exercise2 – Scalar Function Output](./Additional-Exercises/Exercise2)  
+  * [Exercise2 – Return Data From a Scalar Function](./Additional-Exercises/Exercise2)  
     * `exercise2.sql`, `index.sql`, `output.png`, `README.md`
+  * [Exercise3 – Execute a Stored Procedure](./Additional-Exercises/Exercise3)  
+    * `exercise3.sql`, `index.sql`, `output.png`, `README.md`

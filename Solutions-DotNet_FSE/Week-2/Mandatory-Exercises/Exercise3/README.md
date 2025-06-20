@@ -62,4 +62,3 @@ EXEC sp_GetEmployeeCountByDept @DeptID = 1;
 | Scalar Procedure     | sp_GetEmployeeCountByDept   | Returns the number of employees in a department                |
 | Input Parameter          |@DeptID (INT)     | Department identifier                 |
 | Return Type   | INT     | Total number of employees      | 
----

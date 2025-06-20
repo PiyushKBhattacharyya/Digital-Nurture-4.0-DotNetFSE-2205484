@@ -1,6 +1,6 @@
-# Scalar Functions
+# Stored Procedure
 ## Objective
-This assignment demonstrates how to create and use a scalar function to return the Annual Salary of an Employee based on their EmployeeID.
+This assignment demonstrates how to execute a stored procedure in SQL Server to return the total number of employees in a given department.
 ---
 ## Database Schema Overview
 
@@ -25,43 +25,38 @@ CREATE TABLE Employees (
 ```sql
 INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
 (1, 'HR'),
-(2, 'IT'),
-(3, 'Finance');
+(2, 'Finance'),
+(3, 'IT'),
+(4, 'Marketing');
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID, Salary, JoinDate) VALUES
 (1, 'John', 'Doe', 1, 5000.00, '2020-01-15'),
 (2, 'Jane', 'Smith', 2, 6000.00, '2019-03-22'),
-(3, 'Bob', 'Johnson', 3, 5500.00, '2021-07-01');
+(3, 'Michael', 'Johnson', 3, 7000.00, '2018-07-30'),
+(4, 'Emily', 'Davis', 4, 5500.00, '2021-11-05');
 ```
 ---
 ## Exercise
-### Scalar Function Creation
-*Goal:* Create a function to calculate annual salary of an employee.
+### Stored Procedure Creation
+*Goal:* Create a procedure to return the total number of employees in a department.
 ```sql
-CREATE FUNCTION fn_CalculateAnnualSalary (@EmpID INT)
-RETURNS DECIMAL(10,2)
-AS
+CREATE PROCEDURE sp_GetEmployeesByDept @DeptID INT
+AS 
 BEGIN
-    DECLARE @AnnualSalary DECIMAL(10,2);
-
-    SELECT @AnnualSalary = Salary * 12
+    SELECT
+        EmployeeID,
+        FirstName,
+        LastName,
+        DepartmentID,
+        Salary,
+        JoinDate
     FROM Employees
-    WHERE EmployeeID = @EmpID;
-
-    RETURN @AnnualSalary;
+    WHERE DepartmentID = @DeptID;
 END;
 ```
 
-### Calling the Function
+### Executing the Procedure
 ```sql
-SELECT dbo.fn_CalculateAnnualSalary(1) AS AnnualSalary;
+EXEC sp_GetEmployeesByDept @DeptID = 2;
 ```
----
-## Summary of Indexes
-
-| Object Type             | Name   | Purpose              
-|--------------------|------------|----------------------------|
-| Scalar Function     | fn_CalculateAnnualSalary   | Calculates annual salary for given EmployeeID                |
-| Input Parameter          | @EmpID (INT)     | Employee identifier                  |
-| Return Type   | DECIMAL(10,2)     | Annual salary      | 
 ---
