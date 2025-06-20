@@ -10,7 +10,7 @@ Use SQL **ranking and window functions** to find the **top 3 most expensive prod
 - `PARTITION BY`
 
 using an **E-Commerce Database Schema**.
-
+---
 ## Database Schema Overview
 
 ```sql
