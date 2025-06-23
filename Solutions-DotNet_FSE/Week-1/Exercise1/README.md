@@ -64,12 +64,6 @@ dotnet run
 ---
 ## Output
 ```bash
-Requesting Dog:
-Dog Object created.
-Woof!
-Requesting Cat:
-Cat Object created.
-Meow!
-Requesting Horse:
-Invalid animal type.
+Singleton Created.
+Hello World!
 ```
