@@ -1,4 +1,7 @@
-﻿namespace CalcLibraryTests
+﻿using NUnit.Framework;
+using CalcLibrary;
+
+namespace CalcLibraryTests
 {
     [TestFixture]
     public class CalculatorTests

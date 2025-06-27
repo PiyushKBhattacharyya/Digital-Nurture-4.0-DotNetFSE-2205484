@@ -1,6 +1,6 @@
 DotNet FSE
-*Digital-Nurture-4.0-DotNetFSE-2205484.sln
-*bin
-*obj
-*.vs
-*packages
+**/*bin
+**/*obj
+**/*.vs
+**/*packages
+**/*.sln
