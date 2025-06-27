@@ -2,6 +2,7 @@
 ## Objective
 
 This project demonstrates **writing unit-testable code** by mocking external dependencies using **Moq**. It simulates an email notification module without actually sending emails, enabling fast and isolated unit testing.
+
 ---
 ## Scenario
 
