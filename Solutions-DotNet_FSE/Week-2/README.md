@@ -34,8 +34,18 @@ Each assignment is organized in its own subfolder:
     * `exercise2.sql`, `index.sql`, `output.png`, `README.md`
   * [Exercise3 – Return Data From a Stored Procedure](./Mandatory-Exercises/Exercise3)  
     * `exercise3.sql`, `index.sql`, `output.png`, `README.md`
-  * [Exercise4 – NUnit Handson (On Calculator Class)](./Mandatory-Exercises/Exercise4/CalcLibraryTests/)
-    * `calculatorTest.cs`, `calcLibraryTests.csproj`
+  * [Exercise4 – NUnit Handson (On Calculator Class)](./Mandatory-Exercises/Exercise4)
+    * `CalcLibraryTests`
+      * `calculatorTest.cs`, `calcLibraryTests.csproj`
+    * `CalcLibrary`
+      * `MathLibrary.cs`, `calcLibrary.csproj`
+    * `output.png`, `README.md`
+  * [Exercise5 – Write Testable Code on Moq](./Mandatory-Exercises/Exercise5)
+    * `CustomerCommLib`
+      * `CustomerComm.cs`, `CustomerCommLib.csproj`, `MailSender.cs`
+    * `CustomerComm.Tests`
+      * `CustomerCommTests.cs`, `CustomerComm.Tests.csproj`
+    * `output.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
   * [Exercise1 – Creating a Clustered, Non-Clustered & Composite Index](./Additional-Exercises/Exercise1)  
