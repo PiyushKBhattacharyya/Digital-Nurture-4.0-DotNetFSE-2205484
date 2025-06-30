@@ -2,8 +2,8 @@
 ## What is ORM?
 
 ORM (Object-Relational Mapping) is a technique to:
-- Map C# classes → to database tables
-- Map C# properties → to table columns
+- Map C# classes to database tables
+- Map C# properties to table columns
 
 ### Example
 
