@@ -11,7 +11,7 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | Understanding ORM with a Retail Inventory System             |
 | Exercise 2   | Setting Up the Database Context             |
-
+| Exercise 3   | Using EF Core CLI to Create and Apply Migrations             |
 
 
 ### Additional Assignments
@@ -31,7 +31,10 @@ Each assignment is organized in its own subfolder:
     * `output.png`, `README.md` 
   * [Exercise2 – Setting Up the Database Context](./Mandatory-Exercises/Exercise2)
     * `RetailInventory` 
-    * `output.png`, `README.md`   
+    * `output.png`, `README.md`
+  * [Exercise2 – Using EF Core CLI to Create and Apply Migrations](./Mandatory-Exercises/Exercise3)
+    * `RetailInventory` 
+    * `output.png`, `README.md`      
 
 
 * [Additional-Exercises](./Additional-Exercises)
