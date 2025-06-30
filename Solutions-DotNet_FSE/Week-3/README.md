@@ -10,6 +10,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise No. | Title                                      |
 |--------------|--------------------------------------------|
 | Exercise 1   | Understanding ORM with a Retail Inventory System             |
+| Exercise 2   | Setting Up the Database Context             |
 
 
 
@@ -26,7 +27,10 @@ Each assignment is organized in its own subfolder:
 * [Mandatory-Exercises](./Mandatory-Exercises)
   * [Exercise1 – Understanding ORM with a Retail Inventory System](./Mandatory-Exercises/Exercise1)
     * `RetailInventory` 
-    * `output.png`, `README.md`  
+    * `output.png`, `README.md` 
+  * [Exercise2 – Setting Up the Database Context](./Mandatory-Exercises/Exercise2)
+    * `RetailInventory` 
+    * `output.png`, `README.md`   
 
 
 * [Additional-Exercises](./Additional-Exercises)
