@@ -15,7 +15,9 @@ The solutions along with the output screenshots are included for reference.
 
 ### Additional Assignments
 
-*TO BE ADDED*
+| Exercise No. | Title                                      |
+|--------------|--------------------------------------------|
+| Exercise 1   | Updating and Deleting Records            |
 
 ## Folder Structure
 
@@ -28,3 +30,6 @@ Each assignment is organized in its own subfolder:
 
 
 * [Additional-Exercises](./Additional-Exercises)
+  * [Exercise1 – Updating and Deleting Records](./Mandatory-Exercises/Exercise1)
+      * `RetailInventory` 
+      * `output.png`, `README.md` 

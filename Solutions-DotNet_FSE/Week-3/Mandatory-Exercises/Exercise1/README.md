@@ -98,7 +98,7 @@ public class RetailDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=RetailDb;Trusted_Connection=True;TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Your_Connection_String_Here");
     }
 }
 ```
