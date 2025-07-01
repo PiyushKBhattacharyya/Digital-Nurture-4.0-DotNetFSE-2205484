@@ -9,6 +9,7 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | Web Api using .Net core             |
 | Exercise 2   | Swagger UI Demo             |
+| Exercise 3  | Custom Filters, Models, and Auth            |
 
 ## Folder Structure
 
@@ -17,6 +18,9 @@ Each assignment is organized in its own subfolder:
 * [Exercise1 – Web Api using .Net core](./Exercise1)
     * `exercise1` 
     * `output-GET.png`, `output-POST.png`, `README.md`
-* [Exercise1 – Swagger UI](./Exercise2)
+* [Exercise2 – Swagger UI](./Exercise2)
     * `exercise2` 
     * `output-GET.png`, `output-POST.png`, `README.md`
+* [Exercise3 – Custom Filters, Models, and Swagger](./Exercise2)
+    * `exercise2` 
+    * `output-GET.png`, `output-auth.png`, `output-GET_with_wrong_token.png`, `output-GET-without_auth.png`,` output-Logs.txt_(Test Filter).png` ,`README.md`
