@@ -5,9 +5,14 @@ The solutions along with the output screenshots are included for reference.
 
 ## Assignment List
 
-*TO-BE-ADDED*
+| Exercise No. | Title                                      |
+|--------------|--------------------------------------------|
+| Exercise 1   | Web Api using .Net core             |
 
 ## Folder Structure
 
 Each assignment is organized in its own subfolder:
-*TO-BE-ADDED*
+
+* [Exercise1 – Web Api using .Net core](./Mandatory-Exercises/Exercise1)
+    * `exercise1` 
+    * `output-GET.png`, `output-POST.png`, `README.md`
