@@ -13,6 +13,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise 2   | Setting Up the Database Context             |
 | Exercise 3   | Using EF Core CLI to Create and Apply Migrations             |
 | Exercise 4   | Inserting Initial Data Into the Database             |
+| Exercise 5   | Retrieving Data from the Database             |
 
 
 ### Additional Assignments
@@ -39,6 +40,9 @@ Each assignment is organized in its own subfolder:
   * [Exercise4 – Inserting Initial Data Into the Database](./Mandatory-Exercises/Exercise4)
     * `RetailInventory` 
     * `output.png`, `README.md`     
+  * [Exercise5 – Retrieving Data from the Database](./Mandatory-Exercises/Exercise5)
+    * `RetailInventory` 
+    * `output.png`, `README.md`
 
 
 * [Additional-Exercises](./Additional-Exercises)
