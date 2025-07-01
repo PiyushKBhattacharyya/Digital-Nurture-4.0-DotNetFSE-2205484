@@ -13,6 +13,6 @@ The solutions along with the output screenshots are included for reference.
 
 Each assignment is organized in its own subfolder:
 
-* [Exercise1 – Web Api using .Net core](./Mandatory-Exercises/Exercise1)
+* [Exercise1 – Web Api using .Net core](./Exercise1)
     * `exercise1` 
     * `output-GET.png`, `output-POST.png`, `README.md`
