@@ -70,24 +70,8 @@ Use `FirstOrDefaultAsync()` to get the first product with price greater than ₹
 var expensive = await context.Products.FirstOrDefaultAsync(p => p.Price > 50000);
 Console.WriteLine($"Expensive: {expensive?.Name}");
 ```
----
-## Expected Output:
-All Products
-Laptop - ₹55000.00 | Category: Electronics
-Mouse - ₹500.00 | Category: Accessories
-Monitor - ₹15000.00 | Category: Electronics
 
-Find Product by ID (1)
-Found: Laptop
 
-First Product with Price > ₹50000
-Monitor - ₹15000.00 | Category: Electronics
-
-Find Product by ID (1)
-Found: Laptop
-
-First Product with Price > ₹50000
-Expensive: Laptop
 ---
 ## NOTES
 
