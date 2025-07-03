@@ -21,6 +21,9 @@ Each assignment is organized in its own subfolder:
 * [Exercise2 – Swagger UI](./Exercise2)
     * `exercise2` 
     * `output-GET.png`, `output-POST.png`, `README.md`
-* [Exercise3 – Custom Filters, Models, and Swagger](./Exercise2)
-    * `exercise2` 
+* [Exercise3 – Custom Filters, Models, and Swagger](./Exercise3)
+    * `exercise3` 
     * `output-GET.png`, `output-auth.png`, `output-GET_with_wrong_token.png`, `output-GET-without_auth.png`,` output-Logs.txt_(Test Filter).png` ,`README.md`
+* [Exercise4 – CRUD Operations (UPDATE Operation)](./Exercise4)
+    * `exercise4` 
+    * `output-GET.png`, `output-PUT_Invalid-ID.png`, `output-PUT_Invalid-ID.png`, `README.md`
