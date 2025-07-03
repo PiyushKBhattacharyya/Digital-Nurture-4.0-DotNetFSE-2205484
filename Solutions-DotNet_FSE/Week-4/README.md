@@ -10,6 +10,8 @@ The solutions along with the output screenshots are included for reference.
 | Exercise 1   | Web Api using .Net core             |
 | Exercise 2   | Swagger UI Demo             |
 | Exercise 3  | Custom Filters, Models, and Auth            |
+| Exercise 4  | CRUD Operations (UPDATE Operation)            |
+| Exercise 5   | JWT Authentication & Role-based Authorization in ASP.NET Core Web API            |
 
 ## Folder Structure
 
@@ -27,3 +29,6 @@ Each assignment is organized in its own subfolder:
 * [Exercise4 – CRUD Operations (UPDATE Operation)](./Exercise4)
     * `exercise4` 
     * `output-GET.png`, `output-PUT_Invalid-ID.png`, `output-PUT_Invalid-ID.png`, `README.md`
+* [Exercise5 – JWT Authentication & Role-based Authorization in ASP.NET Core Web API](./Exercise5)
+    * `exercise4` 
+    * `output-GET_JWT_Token`, `output-GET_UnvalidORExpired_Token.png`, `output-GET_Valid-Token.png`, `README.md`
