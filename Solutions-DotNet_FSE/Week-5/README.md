@@ -22,6 +22,6 @@ Each assignment is organized in its own subfolder:
         * `ex6-task2`
         * `output-demo.png`, `README.md`
     * `output-Kafka_running.png`, `output-topic_created.png`, `output-zookeeper_running.png`, `README.md`
-* [Exercise1 – ASP.NET Core Web API – JWT Authentication & Authorization](./Exercise2)
+* [Exercise2 – ASP.NET Core Web API – JWT Authentication & Authorization](./Exercise2)
     * `exercise2`
     * `output-GET_expired-token.png`, `output-GET_get-admin-page-incorrect-role.png`, `output-GET_get-admin-page.png`, `output-GET_get-secure-data.png`, `output-POST_login.png`, `README.md`
