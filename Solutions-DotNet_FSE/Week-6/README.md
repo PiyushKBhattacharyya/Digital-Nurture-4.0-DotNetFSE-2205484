@@ -11,6 +11,7 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | First React App             |
 | Exercise 2   | Student App             |
+| Exercise 3   | Score Calculator App             |
 
 ### Additional Assignments
 
@@ -23,7 +24,10 @@ Each assignment is organized in its own subfolder:
     * `myfirstreact` 
     * `output.png`, `README.md` 
   * [Exercise2 – Student App](./Mandatory-Exercises/Exercise2)
-    * `myfirstreact` 
+    * `studentapp` 
+    * `output.png`, `README.md` 
+  * [Exercise3 – Score Calculator App](./Mandatory-Exercises/Exercise3)
+    * `scorecalculatorapp` 
     * `output.png`, `README.md` 
 
 * [Additional-Exercises](./Additional-Exercises)
