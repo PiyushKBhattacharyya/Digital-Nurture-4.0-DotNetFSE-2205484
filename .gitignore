@@ -4,3 +4,5 @@ DotNet FSE
 **/*.vs
 **/*packages
 **/*.sln
+**/*package.json
+**/*node_modules
