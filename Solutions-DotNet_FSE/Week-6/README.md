@@ -10,6 +10,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise No. | Title                                      |
 |--------------|--------------------------------------------|
 | Exercise 1   | First React App             |
+| Exercise 2   | Student App             |
 
 ### Additional Assignments
 
@@ -21,6 +22,8 @@ Each assignment is organized in its own subfolder:
   * [Exercise1 – First React App](./Mandatory-Exercises/Exercise1)
     * `myfirstreact` 
     * `output.png`, `README.md` 
-
+  * [Exercise2 – Student App](./Mandatory-Exercises/Exercise2)
+    * `myfirstreact` 
+    * `output.png`, `README.md` 
 
 * [Additional-Exercises](./Additional-Exercises)
