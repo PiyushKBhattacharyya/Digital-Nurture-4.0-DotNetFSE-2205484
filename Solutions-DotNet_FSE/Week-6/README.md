@@ -12,6 +12,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise 1   | First React App             |
 | Exercise 2   | Student App             |
 | Exercise 3   | Score Calculator App             |
+| Exercise 4   | Blog App             |
 
 ### Additional Assignments
 
@@ -27,6 +28,9 @@ Each assignment is organized in its own subfolder:
     * `studentapp` 
     * `output.png`, `README.md` 
   * [Exercise3 – Score Calculator App](./Mandatory-Exercises/Exercise3)
+    * `scorecalculatorapp` 
+    * `output.png`, `README.md` 
+  * [Exercise3 – Blog App](./Mandatory-Exercises/Exercise4)
     * `scorecalculatorapp` 
     * `output.png`, `README.md` 
 
