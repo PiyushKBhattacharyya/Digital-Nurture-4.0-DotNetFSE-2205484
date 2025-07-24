@@ -13,6 +13,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise 2   | Student App             |
 | Exercise 3   | Score Calculator App             |
 | Exercise 4   | Blog App             |
+| Exercise 5   | Chohort Tracker - Styling             |
 
 ### Additional Assignments
 
@@ -30,8 +31,11 @@ Each assignment is organized in its own subfolder:
   * [Exercise3 – Score Calculator App](./Mandatory-Exercises/Exercise3)
     * `scorecalculatorapp` 
     * `output.png`, `README.md` 
-  * [Exercise3 – Blog App](./Mandatory-Exercises/Exercise4)
+  * [Exercise4 – Blog App](./Mandatory-Exercises/Exercise4)
     * `scorecalculatorapp` 
     * `output.png`, `README.md` 
+  * [Exercise5 – Chohort Tracker - Styling](./Mandatory-Exercises/Exercise5)
+    * `cohorttracker` 
+    * `output.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
