@@ -17,6 +17,9 @@ The solutions along with the output screenshots are included for reference.
 
 ### Additional Assignments
 
+| Exercise No. | Title                                      |
+|--------------|--------------------------------------------|
+| Exercise 1   | My Academy Trainers App - React Router             |
 ## Folder Structure
 
 Each assignment is organized in its own subfolder:
@@ -39,3 +42,6 @@ Each assignment is organized in its own subfolder:
     * `output.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
+* [Exercise1 – My Academy Trainers App - React Router](./Additional-Exercises/Exercise1)
+    * `trainersapp` 
+    * `output-landingPage.png`, `output-showTrainer.png`, `output-mockRrainer1.png`, `output-mockRrainer2.png`, `output-mockRrainer3.png`, `README.md` 
