@@ -47,6 +47,6 @@ Each assignment is organized in its own subfolder:
   * [Exercise1 – My Academy Trainers App - React Router](./Additional-Exercises/Exercise1)
     * `trainersapp` 
     * `output-landingPage.png`, `output-showTrainer.png`, `output-mockRrainer1.png`, `output-mockRrainer2.png`, `output-mockRrainer3.png`, `README.md` 
-  * [Exercise5 – Chohort Tracker - Styling](./Mandatory-Exercises/Exercise5)
+  * [Exercise2 – Shopping App - Props, React Router DOM](./Additional-Exercises/Exercise2)
     * `shoppingapp` 
     * `output.png`, `README.md`
