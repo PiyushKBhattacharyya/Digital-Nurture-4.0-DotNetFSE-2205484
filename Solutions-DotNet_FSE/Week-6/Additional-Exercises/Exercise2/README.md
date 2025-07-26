@@ -89,3 +89,8 @@ class OnlineShopping extends React.Component {
 
 export default OnlineShopping;
 ```
+
+### **5. Start development server**
+```bash
+npm start
+```
