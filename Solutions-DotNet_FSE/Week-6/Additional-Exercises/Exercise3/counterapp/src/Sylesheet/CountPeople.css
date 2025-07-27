@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.label {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #1aa405;
+}

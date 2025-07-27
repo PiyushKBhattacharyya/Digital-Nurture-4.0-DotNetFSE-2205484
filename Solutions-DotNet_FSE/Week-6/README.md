@@ -21,6 +21,7 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | My Academy Trainers App - React Router             |
 | Exercise 2   | Shopping App - Props, React Router DOM             |
+| Exercise 3   | Counter App - React State             |
 
 ## Folder Structure
 
@@ -49,4 +50,7 @@ Each assignment is organized in its own subfolder:
     * `output-landingPage.png`, `output-showTrainer.png`, `output-mockRrainer1.png`, `output-mockRrainer2.png`, `output-mockRrainer3.png`, `README.md` 
   * [Exercise2 – Shopping App - Props, React Router DOM](./Additional-Exercises/Exercise2)
     * `shoppingapp` 
+    * `output.png`, `README.md`
+  * [Exercise2 – Shopping App - Props, React Router DOM](./Additional-Exercises/Exercise3)
+    * `counterapp` 
     * `output.png`, `README.md`
