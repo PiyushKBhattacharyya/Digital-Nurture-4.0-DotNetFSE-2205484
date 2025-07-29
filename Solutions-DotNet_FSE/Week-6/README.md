@@ -1,4 +1,4 @@
-# Week3 Assignments
+# Week6 Assignments
 
 Welcome to **Week 6** of the **Digital Nurture 4.0 DotNet FSE** program.
 The solutions along with the output screenshots are included for reference.
