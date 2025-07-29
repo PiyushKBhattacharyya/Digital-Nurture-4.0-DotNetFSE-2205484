@@ -11,7 +11,8 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | Cricket App - ES6 features          |
 | Exercise 2   | Office Space Rental App - JSX Demonstration         |
-| Exercise 3   | React Currency Convertor - React events         |
+| Exercise 3   | Currency Convertor - React events         |
+| Exercise 3   | React Conditional Rendering - Login/Logout Example         |
 
 ### Additional Assignments
 
@@ -30,6 +31,9 @@ Each assignment is organized in its own subfolder:
   * [Exercise3 – React Currency Convertor - React events](./Mandatory-Exercises/Exercise3)
     * `currencyconverterapp` 
     * `output-Click_on_me_btn.png`, `output-landing.png`, `output-submit_btn.png`, `output-Welcome_btn.png`, `README.md`
+  * [Exercise4 – React Conditional Rendering - Login/Logout Example](./Mandatory-Exercises/Exercise4)
+    * `conditional-rendering-app` 
+    * `output_Guest-page.png`, `output_User-page.png`, `README.md` 
 
 * [Additional-Exercises](./Additional-Exercises)
 **TO BE ADDED**
