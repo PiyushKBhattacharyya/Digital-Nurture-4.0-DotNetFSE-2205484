@@ -22,7 +22,7 @@ Each assignment is organized in its own subfolder:
 * [Mandatory-Exercises](./Mandatory-Exercises)
   * [Exercise1 – First React App](./Mandatory-Exercises/Exercise1)
     * `cricketapp` 
-    * `output-Flag=True.png`, `output-Flag=False.png`, `README.md` 
+    * `output_flag=True.png`, `output_flag=False.png`, `README.md` 
 
 * [Additional-Exercises](./Additional-Exercises)
 **TO BE ADDED**
