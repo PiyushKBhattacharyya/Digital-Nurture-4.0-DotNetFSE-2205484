@@ -12,7 +12,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise 1   | Cricket App - ES6 features          |
 | Exercise 2   | Office Space Rental App - JSX Demonstration         |
 | Exercise 3   | Currency Convertor - React events         |
-| Exercise 3   | React Conditional Rendering - Login/Logout Example         |
+| Exercise 4   | React Conditional Rendering - Login/Logout Example         |
 
 ### Additional Assignments
 
