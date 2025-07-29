@@ -10,7 +10,8 @@ The solutions along with the output screenshots are included for reference.
 | Exercise No. | Title                                      |
 |--------------|--------------------------------------------|
 | Exercise 1   | Cricket App - ES6 features          |
-| Exercise 1   | Office Space Rental App - JSX Demonstration         |
+| Exercise 2   | Office Space Rental App - JSX Demonstration         |
+| Exercise 3   | React Currency Convertor - React events         |
 
 ### Additional Assignments
 
@@ -24,8 +25,11 @@ Each assignment is organized in its own subfolder:
     * `cricketapp` 
     * `output_flag=True.png`, `output_flag=False.png`, `README.md` 
   * [Exercise2 – Office Space Rental App - JSX Demonstration](./Mandatory-Exercises/Exercise2)
-    * `cricketapp` 
+    * `officespacerentalapp` 
     * `output_price-greater-than-6000.png`, `output_price-less-than-equal-to-6000.png`, `README.md` 
+  * [Exercise3 – React Currency Convertor - React events](./Mandatory-Exercises/Exercise3)
+    * `currencyconverterapp` 
+    * `output-Click_on_me_btn.png`, `output-landing.png`, `output-submit_btn.png`, `output-Welcome_btn.png`, `README.md`
 
 * [Additional-Exercises](./Additional-Exercises)
 **TO BE ADDED**
