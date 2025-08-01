@@ -1,4 +1,4 @@
-# React Conditional Rendering - Login/Logout Example
+# Conditional Rendering - Login/Logout Example
 
 ## Objectives
 

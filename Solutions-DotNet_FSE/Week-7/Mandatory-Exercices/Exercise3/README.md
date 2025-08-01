@@ -1,5 +1,7 @@
 # Currency Convertor - React events
+
 ## Objectives
+
 - Explain React events
 - Define Synthetic Event and show how it standardizes browser events in React
 - Use synthetic events for handling user actions
