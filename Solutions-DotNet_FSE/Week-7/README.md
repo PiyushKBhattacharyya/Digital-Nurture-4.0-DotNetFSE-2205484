@@ -18,7 +18,9 @@ The solutions along with the output screenshots are included for reference.
 
 ### Additional Assignments
 
-**TO BE ADDED**
+| Exercise No. | Title                                      |
+|--------------|--------------------------------------------|
+| Exercise 1   | Employee Management App - React Context API          |
 
 ## Folder Structure
 
@@ -41,4 +43,6 @@ Each assignment is organized in its own subfolder:
     * `bloggerapp`
     * `output.png`, `README.md`
 * [Additional-Exercises](./Additional-Exercises)
-**TO BE ADDED**
+  * [Exercise1 – Employee Management App - React Context API](./Additional-Exercises/Exercise1)
+    * `employeesapp`
+    * `output_light.png`, `output_dark.png`, `README.md`
