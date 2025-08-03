@@ -21,6 +21,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise No. | Title                                      |
 |--------------|--------------------------------------------|
 | Exercise 1   | Employee Management App - React Context API          |
+| Exercise 2   | Ticket Raising App - React forms          |
 
 ## Folder Structure
 
@@ -46,3 +47,6 @@ Each assignment is organized in its own subfolder:
   * [Exercise1 – Employee Management App - React Context API](./Additional-Exercises/Exercise1)
     * `employeesapp`
     * `output_light.png`, `output_dark.png`, `README.md`
+  *  [Exercise2 - Ticket Raising App - React forms](./Additional-Exercises/Exercise2)
+    * `ticketraisingapp`
+    * `output.png`, `README.md`
