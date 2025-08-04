@@ -22,6 +22,8 @@ The solutions along with the output screenshots are included for reference.
 |--------------|--------------------------------------------|
 | Exercise 1   | Employee Management App - React Context API          |
 | Exercise 2   | Ticket Raising App - React forms          |
+| Exercise 3   | Mail Register App - React Forms validation         |
+
 
 ## Folder Structure
 
@@ -50,3 +52,6 @@ Each assignment is organized in its own subfolder:
   *  [Exercise2 - Ticket Raising App - React forms](./Additional-Exercises/Exercise2)
     * `ticketraisingapp`
     * `output.png`, `README.md`
+  *  [Exercise3 - Mail Register App - React Forms validation](./Additional-Exercises/Exercise3)
+    * `ticketraisingapp`
+    * `output_emailValid.png`, `output_nameLessThan5.png`, `output_passLessThan8.png`, `output_success.png`, `README.md`
