@@ -4,6 +4,8 @@
 
 This app demonstrates how to create and handle React forms using controlled components. It includes various input controls like textboxes and textareas, and handles form submission with an alert display showing a unique reference number.
 
+---
+
 ## Features
 
 - React form handling with controlled components
@@ -12,11 +14,15 @@ This app demonstrates how to create and handle React forms using controlled comp
 - Generates a random reference/transaction number on submitting complaints
 - Alerts the user with a confirmation message including the reference number
 
+---
+
 ## Prerequisites
 
 - Node.js
 - npm (comes with Node.js)
 - Visual Studio Code (or any preferred code editor)
+
+---
 
 ## Getting Started
 
@@ -42,6 +48,8 @@ Replace the default code in `App.js` to render the `ComplaintRegister` component
 ```bash
 npm start
 ```
+
+---
 
 ## Component Breakdown
 
