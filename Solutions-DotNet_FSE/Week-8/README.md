@@ -21,5 +21,5 @@ Each assignment is organized in its own subfolder:
 * [Exercise2 – Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files](./Exercise2)
     * `GitDemo`
     * `output_bash-1.png`, `output_bash-1.png`, `output_bash-3.png`, `README.md`
-* [Exercise2 – Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files](./Exercise3)
+* [Exercise3 – Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files](./Exercise3)
     * `output_bash-1.png`, `output_bash-1.png`, `output_p4-merge.png`, `README.md`
