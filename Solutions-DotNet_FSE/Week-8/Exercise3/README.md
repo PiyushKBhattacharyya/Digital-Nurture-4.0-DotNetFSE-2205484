@@ -120,3 +120,5 @@ Before starting this lab, ensure you have:
 | Merge branch          | `git merge GitNewBranch`                     |
 | Show log graph        | `git log --oneline --graph --decorate`       |
 | Delete branch         | `git branch -d GitNewBranch`                 |
+
+---
