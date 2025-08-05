@@ -1,10 +1,11 @@
-# Week7 Assignments
+# Week8 Assignments
 
 Welcome to **Week 8** of the **Digital Nurture 4.0 DotNet FSE** program.
 The solutions along with the output screenshots are included for reference.
 
 ## Assignment List
 
+**GitLab Project Link**: https://gitlab.com/piyushkbhattacharyya/GitDemo
 
 | Exercise No. | Title                                      |
 |--------------|--------------------------------------------|
