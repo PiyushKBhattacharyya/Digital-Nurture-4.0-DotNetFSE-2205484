@@ -10,6 +10,9 @@ The solutions along with the output screenshots are included for reference.
 | Exercise 1   | Git Hands-on Lab: Getting Started with Git & Notepad++ Integration          |
 | Exercise 2   | Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files          |
 | Exercise 3   | Git Branching and Merging Lab          |
+| Exercise 4   | Git Merge Conflict Resolution Lab          |
+
+---
 
 ## Folder Structure
 
@@ -21,5 +24,7 @@ Each assignment is organized in its own subfolder:
 * [Exercise2 – Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files](./Exercise2)
     * `GitDemo`
     * `output_bash-1.png`, `output_bash-1.png`, `output_bash-3.png`, `README.md`
-* [Exercise3 – Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files](./Exercise3)
+* [Exercise3 – Git Branching and Merging Lab](./Exercise3)
     * `output_bash-1.png`, `output_bash-1.png`, `output_p4-merge.png`, `README.md`
+* [Exercise4 – Git Merge Conflict Resolution Lab](./Exercise4)
+    * `.gitignore`, `hello.xml`, `output_bash-1.png`, `output_bash-1.png`, `output_p4-merge.png`, `output_bash-1.png`, `README.md`
