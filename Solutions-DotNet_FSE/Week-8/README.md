@@ -9,6 +9,7 @@ The solutions along with the output screenshots are included for reference.
 | Exercise No. | Title                                      |
 |--------------|--------------------------------------------|
 | Exercise 1   | Git Hands-on Lab: Getting Started with Git & Notepad++ Integration          |
+| Exercise 2   | Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files          |
 
 ## Folder Structure
 
@@ -17,3 +18,6 @@ Each assignment is organized in its own subfolder:
 * [Exercise1 – Git Hands-on Lab: Getting Started with Git & Notepad++ Integration](./Exercise1)
     * `GitDemo`
     * `output_bash-1.png`, `output_bash-1.png`, `output_bash-3.png`, `output_Commit_message.png`, `README.md`
+* [Exercise2 – Git Hands-on Lab: Using `.gitignore` to Ignore Unwanted Files](./Exercise2)
+    * `GitDemo`
+    * `output_bash-1.png`, `output_bash-1.png`, `output_bash-3.png`, `README.md`
